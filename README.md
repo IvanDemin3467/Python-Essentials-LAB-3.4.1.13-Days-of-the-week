@@ -31,3 +31,26 @@ Thu
 Sun
 Sorry, I can't serve your request.
 ```
+
+**Complete code includes**
+```
+class WeekDayError(Exception):
+    pass
+
+class Weeker:
+    # This class is able to store and to manipulate days of a week
+    # It uses dictionary to store names of the days
+
+    def __init__(self, day):
+        # This constructor initialises object with current day
+        # and raises exception if day is not in "Mon Tue Wed Thu Fri Sat Sun"
+
+    def __str__(self):
+        # This method makes object printable
+
+    def add_days(self, n):
+        # This method adds n to the current day
+
+    def subtract_days(self, n):
+        # This method subtracts n from the current day
+```
