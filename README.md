@@ -54,3 +54,8 @@ class Weeker:
     def subtract_days(self, n):
         # This method subtracts n from the current day
 ```
+
+**Implementations**
+
+days-of-the-week-v1.py - uses dictionary to store names of the days
+days-of-the-week-v2.py - uses tuple to store names of the days
